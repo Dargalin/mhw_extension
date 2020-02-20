@@ -1,6 +1,6 @@
 <template>
   <div id="mhw_debug">
-    <p>{{ debug }}</p>
+    <GetMaterial />
     <Fextralife :monster="monster" :material="material" :location="location" />
   </div>
 </template>
@@ -10,15 +10,17 @@ import Monster from './data/monster.json';
 import Location from './data/location.json';
 import Material from './data/material.json';
 import Fextralife from './content_scripts/Fextralife.vue';
+import GetMaterial from './content_scripts/GetMaterials.vue';
 
 export default {
   name: 'MHWreplace',
   components: {
     Fextralife,
+    GetMaterial,
   },
   data() {
     return {
-      debug: 'Debug',
+      debug: ' Debug',
       monster: Monster,
       location: Location,
       material: Material,
@@ -31,10 +33,13 @@ export default {
 #mhw_debug {
   position: fixed;
   background: white;
+  color: #333;
   font-size: 12px;
   padding: 0.5em;
   top: 1em;
   right: 1em;
   z-index: 100000;
+  max-height: 50vh;
+  overflow-y: auto;
 }
 </style>
