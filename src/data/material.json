@@ -1,9 +1,12 @@
 [{
     "id": 1,
     "name": "Spiritvein Slogbone",
+    "description": "Bone obtained from tempered monsters in the Guiding Lands. Imbued with the same power as a streamstone.",
+    "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/spiritvein-slogbone-mhw-wiki-guide.png",
     "source": {
       "monster": {
-        "2": {
+        "1": {
+          "tempered": true,
           "rate": 3,
           "location": {
             "2": {
@@ -14,7 +17,7 @@
             }
           }
         },
-        "3": {
+        "2": {
           "rate": 3,
           "location": {
             "3": {

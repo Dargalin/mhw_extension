@@ -1,4 +1,4 @@
-<template> </template>
+<template></template>
 <script>
 export default {
   name: 'fextralife',
@@ -45,8 +45,12 @@ export default {
           Object.keys(mat.source.monster).forEach(id => {
             const mon = this.monster.find(x => x.id == id);
             if (mon) {
-              output += ' <span class="mhw_ext"><img src="' + browser.runtime.getURL('images/' + mon.icon) + '">';
-              output += '<span class="mhw_loc"><span>Monster: <a href="' + mon.url + '">' + mon.name + '</a> ';
+              // add tempered background
+              output += ` <span class="mhw_ext"><span class="mhw_img ${mat.source.monster[id].tempered ? 'tempered' : ''}"><img src="${browser.runtime.getURL(
+                'images/' + mon.icon
+              )}"></span>`;
+              // add name
+              output += `<span class="mhw_info"><span class="mhw_monster"><a href="${mon.url}">${mat.source.monster[id].tempered ? 'Tempered' : ''} ${mon.name}</a> `;
               // add Stars
               if (mat.source.monster[id].rate) {
                 output += '⭐'.repeat(3);
@@ -55,12 +59,12 @@ export default {
               Object.keys(mat.source.monster[id].location).forEach(index => {
                 const loc = this.location[index];
                 if (loc) {
-                  output +=
-                    '<span><img src="' + browser.runtime.getURL('images/' + loc.icon) + '" />' + loc.name + ' (' + mat.source.monster[id].location[index].level + ')</span>';
+                  output += `<span class="mhw_location"><img style="max-width: unset !important;" src="${browser.runtime.getURL('images/' + loc.icon)}" />${loc.name} (${
+                    mat.source.monster[id].location[index].level
+                  })</span>`;
                 }
               });
-              output += '</span>';
-              output += '</span>';
+              output += '</span></span></span>';
             }
           });
         }
@@ -84,58 +88,98 @@ export default {
   position: relative;
   display: inline-flex;
   flex-direction: column;
-  border: 0.5px solid transparent;
-  width: 28px;
-  transition: 0.2s all;
+  width: 24px;
   z-index: 1;
-  &:hover {
-    border: 0.5px solid #444;
-    border-radius: 2px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    background-color: #222;
-    transform: scale(2);
-    z-index: 3;
-    box-shadow: 0 0 0.3em black;
 
-    & .mhw_loc {
-      display: inline-block;
+  & .mhw_img {
+    transition: 0.2s all;
+    border: 1px solid transparent;
+    &.tempered {
+      background: #470769;
+      box-shadow: 0 0 0.3em #470769;
+    }
+  }
+  &:hover {
+    z-index: 3;
+
+    & .mhw_img {
+      transform: scale(2);
+      border: 1px solid #444;
+      border-radius: 2px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      background-color: #222;
+      box-shadow: 0 0 0.3em black;
+
+      &.tempered {
+        background: #470769;
+      }
+    }
+
+    & .mhw_info {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: all;
       z-index: 2;
     }
   }
   & img {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     margin: 1px;
   }
-}
-.mhw_loc {
-  position: absolute;
-  display: none;
-  border: 0.5px solid #444;
-  border-radius: 2px;
-  background-color: #222;
-  font-size: 0.5em;
-  padding: 0 1em;
-  white-space: nowrap;
-  box-shadow: 0 0 0.3em black;
 
-  line-height: 0.4em;
+  .mhw_info {
+    transition: 0.15s all;
+    transform: translateY(-12px);
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    border: 2px solid #444;
+    border-radius: 4px;
+    background-color: #222;
+    font-size: 1em;
+    padding: 0;
+    box-shadow: 0 0 0.3em black;
+    display: flex;
+    flex-direction: column;
 
-  left: -4px;
-  top: 24px;
+    left: -16px;
+    top: 36px;
 
-  & img {
-    width: 12px;
-    height: 12px;
-    margin: 0;
-  }
-  & span {
-    display: block;
-    padding-right: 16px;
+    & img {
+      width: 24px;
+      height: 24px;
+      margin-right: 4px;
+    }
 
-    &:first-child {
-      line-height: 2em;
+    & span {
+      display: inline-block;
+      padding: 0.1em 0.3em;
+    }
+
+    & .mhw_description {
+      font-style: italic;
+      border-bottom: 1px dotted #444;
+      padding: 0.2em 1em;
+
+      & span {
+        width: 20em;
+        &:before {
+          content: '»';
+        }
+        &:after {
+          content: '«';
+        }
+      }
+    }
+
+    & .mhw_monster {
+      border-bottom: 1px dotted #444;
+    }
+
+    & .mhw_location {
+      white-space: nowrap;
     }
   }
 }
