@@ -1,0 +1,103 @@
+[{
+    "id": 1,
+    "name": "Spiritvein Slogbone",
+    "source": {
+      "monster": {
+        "2": {
+          "rate": 3,
+          "location": {
+            "2": {
+              "level": "5-7"
+            },
+            "3": {
+              "level": "5-7"
+            }
+          }
+        },
+        "3": {
+          "rate": 3,
+          "location": {
+            "3": {
+              "level": "5-7"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Fierce Dragonvein Bone",
+    "source": {
+      "monster": {
+        "1": {
+          "location": {
+            "2": {
+              "level": "2-3"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Tempered Great Horn",
+    "source": {
+      "monster": {
+        "1": {
+          "location": {
+            "2": {
+              "level": "2-3"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Flickering Flamepelt",
+    "source": {
+      "monster": {
+        "1": {
+          "location": {
+            "2": {
+              "level": "2-3"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Spiritvein Gem",
+    "source": {
+      "monster": {
+        "1": {
+          "location": {
+            "2": {
+              "level": "2-3"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Tempered Silverpelt",
+    "source": {
+      "monster": {
+        "1": {
+          "location": {
+            "2": {
+              "level": "2-3"
+            }
+          }
+        }
+      }
+    }
+  }
+]

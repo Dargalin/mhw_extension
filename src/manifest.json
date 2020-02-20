@@ -1,0 +1,37 @@
+{
+  "name": "mhw_extension",
+  "description": "A Vue.js web extension",
+  "version": null,
+  "manifest_version": 2,
+  "icons": {
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "browser_action": {
+    "default_title": "mhw_extension",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "chrome_style": true
+  },
+  "content_scripts": [{
+    "matches": ["https://*.wiki.fextralife.com/*"],
+    "css": ["main.css"],
+    "js": ["main.js"]
+  }],
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "web_accessible_resources": [
+    "images/*.png",
+    "images/*.svg"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "1": {
+    "name": "Guiding Lands",
+    "icon": ""
+  },
+  "2": {
+    "name": "Guiding Lands: Forest",
+    "icon": "ancient_forest.svg"
+  },
+  "3": {
+    "name": "Guiding Lands: Wildspire",
+    "icon": "wildspire_waste.svg"
+  },
+  "4": {
+    "name": "Guiding Lands: Coral",
+    "icon": ""
+  },
+  "5": {
+    "name": "Guiding Lands: Rotten",
+    "icon": ""
+  },
+  "6": {
+    "name": "Guiding Lands: Volcanic",
+    "icon": ""
+  },
+  "7": {
+    "name": "Guiding Lands: Tundra",
+    "icon": ""
+  }
+}

@@ -1,0 +1,28 @@
+[{
+    "id": 1,
+    "name": "Banbaro",
+    "url": "https://monsterhunterworld.wiki.fextralife.com/Banbaro",
+    "icon": "banbaro_icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Tempered Banbaro",
+    "url": "https://monsterhunterworld.wiki.fextralife.com/Banbaro",
+    "icon": "banbaro_icon.png"
+
+  },
+  {
+    "id": 3,
+    "name": "Barroth",
+    "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth",
+    "icon": "barroth_icon.png"
+
+  },
+  {
+    "id": 4,
+    "name": "Beotodus",
+    "url": "https://monsterhunterworld.wiki.fextralife.com/Beotodus",
+    "icon": "beotodus_icon.png"
+
+  }
+]
