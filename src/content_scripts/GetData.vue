@@ -1,6 +1,6 @@
 <template>
   <div>
-    {
+    <!-- {
     <br />id: ?,
     <br />
     name: '{{ data.name }}',
@@ -26,12 +26,12 @@
       </span>
     </span>
     }
-    <br />}
+    <br />} -->
   </div>
 </template>
 <script>
 export default {
-  name: 'getMaterial',
+  name: 'getData',
   data() {
     return {
       data: {
@@ -40,12 +40,11 @@ export default {
         tempered: false,
         monsters: [],
       },
-      search: ['Materials'],
-      breadcrumbs: {
-        id: 'breadcrumbs-container',
-        text: null,
-      },
+      search: ['/Guiding+Lands'],
       page: null,
+      page_url: null,
+      regions: [],
+      material: [],
     };
   },
   mounted() {
@@ -54,25 +53,66 @@ export default {
   },
   methods: {
     checkPage() {
-      const element = document.getElementById(this.breadcrumbs.id);
-      if (element) {
-        this.breadcrumbs.text = element.innerText;
-        for (let i = 0; i < this.search.length; i++) {
-          if (this.breadcrumbs.text.includes(this.search[i])) {
-            this.page = this.search[i];
-            break;
-          }
-        }
-      }
+      this.page_url = window.location.pathname;
     },
     parsePage() {
-      switch (this.page) {
-        case 'Materials':
-          this.getMaterial();
+      switch (this.page_url) {
+        case '/Guiding+Lands':
+          this.getGuidingLands();
+          //this.getMaterial();
           break;
       }
     },
+    getGuidingLands() {
+      console.log(document.querySelectorAll('p.special'));
+      const tabs = document.querySelectorAll('p.special');
+      if (tabs.length > 0) {
+        // every regions tab
+        for (let tab of tabs) {
+          // set region name
+          const name = 'Guiding Lands: ' + tab.innerText.substring(0, tab.innerText.indexOf('Region') - 1);
+          let levels = tab.nextElementSibling.getElementsByTagName('tr');
+          let output = {};
+          let currentLevel = null;
+          // every regions level
+          for (let row of levels) {
+            // if level row
+            if (row.innerText.includes('Level')) {
+              currentLevel = row.innerText.substring(row.innerText.indexOf('Level') + 6, row.innerText.indexOf('Level') + 7);
+            } else {
+              // if monster row
+              const data = row.querySelectorAll('td');
+              if (data.length == 2) {
+                let tempered = '';
+                // check if tempered monster
+                if (data[0].innerHTML.includes('color: #cc99ff')) {
+                  tempered = 'Tempered ';
+                }
+                const t = data[0].innerText;
+                // get monster data
+                let m = {
+                  name: tempered + t.substring(0, t.indexOf('(') - 1).trim(),
+                  rate: t.substring(t.indexOf('(') + 1, t.indexOf(')')).length,
+                };
+                // set monster data
+                if (!output[m.name]) {
+                  output[m.name] = {};
+                }
+                if (!output[m.name][currentLevel]) {
+                  output[m.name][currentLevel] = {};
+                }
+                output[m.name][currentLevel].rate = m.rate;
+                console.log('monster:', m);
+              }
+            }
+          }
+          console.log(output);
+          this.regions.push({ name, data: output });
+        }
+      }
+    },
     getMaterial() {
+      return;
       const s = {
         title_id: 'page-title',
         content: 'wiki-content-block',
