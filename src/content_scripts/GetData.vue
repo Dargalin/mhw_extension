@@ -1,32 +1,27 @@
 <template>
   <div>
-    <!-- {
-    <br />id: ?,
-    <br />
-    name: '{{ data.name }}',
-    <br />
-    description: '{{ data.description }}',
-    <br />source: {
-    <br />monster: {
-    <br />
-    <span v-if="data.monsters.length>0">
-      <span v-for="mon in data.monsters" :key="mon.name">
-        {
-        <br />
-        {{mon.name}}:{
-        <br />
-        rate: {{mon.rate}},
-        <span v-if="data.tempered">
-          <br />tempered: true,
-        </span>
-        <br />
-        location: {
-        }
-        <br />},
-      </span>
-    </span>
-    }
-    <br />} -->
+    <template v-if="regions.length > 0">
+      <textarea id="mhw_regions" :value="JSON.stringify(regions)" rows="5" cols="100"></textarea>
+      <button @click="copyToClipboard('mhw_regions')">
+        Copy
+      </button>
+      <br />
+    </template>
+    <template v-if="material.length > 0">
+      <textarea id="mhw_material" :value="JSON.stringify(material)" rows="5" cols="100"></textarea>
+      <button @click="copyToClipboard('mhw_material')">
+        Copy
+      </button>
+    </template>
+    <template v-if="page_url == '/Large+Monsters'">
+      <textarea id="mhw_material" :value="JSON.stringify(monster)" rows="5" cols="100"></textarea>
+      <button @click="getMonsters">
+        GetData
+      </button>
+      <button @click="copyToClipboard('mhw_material')">
+        Copy
+      </button>
+    </template>
   </div>
 </template>
 <script>
@@ -40,11 +35,11 @@ export default {
         tempered: false,
         monsters: [],
       },
-      search: ['/Guiding+Lands'],
       page: null,
       page_url: null,
       regions: [],
       material: [],
+      monster: [],
     };
   },
   mounted() {
@@ -59,18 +54,19 @@ export default {
       switch (this.page_url) {
         case '/Guiding+Lands':
           this.getGuidingLands();
-          //this.getMaterial();
+          break;
+        case '/Large+Monsters':
+          this.getMonsters();
           break;
       }
     },
     getGuidingLands() {
-      console.log(document.querySelectorAll('p.special'));
       const tabs = document.querySelectorAll('p.special');
       if (tabs.length > 0) {
         // every regions tab
         for (let tab of tabs) {
           // set region name
-          const name = 'Guiding Lands: ' + tab.innerText.substring(0, tab.innerText.indexOf('Region') - 1);
+          const regionName = 'Guiding Lands: ' + tab.innerText.substring(0, tab.innerText.indexOf('Region') - 1);
           let levels = tab.nextElementSibling.getElementsByTagName('tr');
           let output = {};
           let currentLevel = null;
@@ -96,63 +92,95 @@ export default {
                 };
                 // set monster data
                 if (!output[m.name]) {
-                  output[m.name] = {};
+                  output[m.name] = { level: {}, material: [] };
                 }
-                if (!output[m.name][currentLevel]) {
-                  output[m.name][currentLevel] = {};
+                if (!output[m.name].level[currentLevel]) {
+                  output[m.name].level[currentLevel] = {};
                 }
-                output[m.name][currentLevel].rate = m.rate;
-                console.log('monster:', m);
+                // set monster rates for level
+                output[m.name].level[currentLevel].rate = m.rate;
+
+                // get material for monsters & rating
+                const mats = data[1].querySelectorAll('a.wiki_link');
+                if (mats.length > 0) {
+                  for (let mat of mats) {
+                    let name = mat.innerText.trim();
+                    if (name.includes('(')) name = name.substring(0, name.indexOf('(')).trim();
+                    let rate = null;
+                    // check for rating
+                    if (mat.nextSibling && mat.nextSibling.length > 3 && mat.nextSibling.length <= 8) {
+                      rate = mat.nextSibling.length - 3;
+                    }
+                    // check if material is already known
+                    if (!output[m.name].material.find(x => x.name == mat.innerText)) {
+                      output[m.name].material.push({ name, rate });
+                    }
+
+                    // set material.json
+                    if (!this.material.find(x => x.name == name)) {
+                      this.material.push({ name, source: { monster: [] } });
+                    }
+                    let materialObj = this.material.find(x => x.name == name);
+                    if (materialObj) {
+                      let monsterObj = materialObj.source.monster.find(x => x.name == m.name);
+                      if (!monsterObj) {
+                        materialObj.source.monster.push({ name: m.name, tempered: tempered == '' ? false : true, location: [] });
+                        monsterObj = materialObj.source.monster.find(x => x.name == m.name);
+                      }
+                      let regionObj = monsterObj.location.find(x => x.name == regionName);
+                      if (!regionObj) {
+                        monsterObj.location.push({ name: regionName, level: [] });
+                        regionObj = monsterObj.location.find(x => x.name == regionName);
+                      }
+                      regionObj.level.push(currentLevel);
+                    }
+                  }
+                }
               }
             }
           }
-          console.log(output);
-          this.regions.push({ name, data: output });
+          this.regions.push({ name: regionName, data: output });
         }
       }
     },
-    getMaterial() {
-      return;
-      const s = {
-        title_id: 'page-title',
-        content: 'wiki-content-block',
-      };
-      // name
-      const title = document.getElementById(s.title_id);
-      if (title && title.innerText) {
-        this.data.name = title.innerText.split(' - ')[0];
-      }
-      //description
-      const content = document.getElementById(s.content);
-      if (content) {
-        const desc = content.getElementsByTagName('blockquote');
-        if (desc.length > 0) {
-          this.data.description = desc[0].innerText;
-        }
-        if (this.data.description.includes('tempered')) {
-          this.data.tempered = true;
-        }
-      }
-      //monsters
-      let monsters = document.querySelectorAll("a.wiki_link[href='/Monsters']");
+    getMonsters() {
+      this.monster = [];
+      console.log('getting monsters');
+      const nodeList = document.querySelectorAll('h4');
+      for (let mon of nodeList) {
+        const img = mon.getElementsByTagName('img');
+        if (img.length > 0) {
+          for (let image of img) {
+            let new_monster = {
+              name: null,
+              icon: null,
+              url: null,
+            };
+            // set icon
+            new_monster.icon = image.src;
+            // set url
+            new_monster.url = image.closest('a') ? image.closest('a').href : null;
+            // set name
+            new_monster.name = image.closest('a') ? image.closest('a').innerText.trim() : null;
 
-      if (monsters && monsters[0]) {
-        monsters = monsters[0].closest('div');
-        if (monsters) {
-          const found = monsters.getElementsByTagName('li');
-          for (let mon of found) {
-            console.log(mon.innerText);
-            console.log(mon.innerText.indexOf('('));
-            const name = mon.innerText.substring(0, mon.innerText.indexOf('(') - 1);
-            console.log(name);
-            const rate = mon.innerText.indexOf(')') - mon.innerText.indexOf('(') - 1;
-            this.data.monsters.push({
-              name,
-              rate,
-            });
+            // fix for old monsters
+            if (!new_monster.name) {
+              const fallback = mon.querySelectorAll('a.wiki_link ');
+              console.log(fallback);
+              if (fallback.length > 0) {
+                new_monster.name = fallback[0].innerText.trim();
+                new_monster.url = fallback[0].href;
+              }
+            }
+            this.monster.push(new_monster);
           }
         }
       }
+    },
+    copyToClipboard(id) {
+      const el = document.getElementById(id);
+      el.select();
+      document.execCommand('copy');
     },
   },
 };

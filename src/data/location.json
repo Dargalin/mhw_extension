@@ -1,30 +1,22 @@
-{
-  "1": {
-    "name": "Guiding Lands",
-    "icon": ""
-  },
-  "2": {
-    "name": "Guiding Lands: Forest",
-    "icon": "ancient_forest.svg"
-  },
-  "3": {
-    "name": "Guiding Lands: Wildspire",
-    "icon": "wildspire_waste.svg"
-  },
-  "4": {
-    "name": "Guiding Lands: Coral",
-    "icon": ""
-  },
-  "5": {
-    "name": "Guiding Lands: Rotten",
-    "icon": ""
-  },
-  "6": {
-    "name": "Guiding Lands: Volcanic",
-    "icon": ""
-  },
-  "7": {
-    "name": "Guiding Lands: Tundra",
-    "icon": ""
-  }
-}
+[{
+  "name": "Guiding Lands",
+  "icon": ""
+}, {
+  "name": "Guiding Lands: Forest",
+  "icon": "ancient_forest.svg"
+}, {
+  "name": "Guiding Lands: Wildspire",
+  "icon": "wildspire_waste.svg"
+}, {
+  "name": "Guiding Lands: Coral",
+  "icon": "coral_highlands.svg"
+}, {
+  "name": "Guiding Lands: Rotten",
+  "icon": "rotten_vale.svg"
+}, {
+  "name": "Guiding Lands: Volcanic",
+  "icon": "elders_recess.svg"
+}, {
+  "name": "Guiding Lands: Tundra",
+  "icon": "icon-gl-tundra.png"
+}]

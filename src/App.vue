@@ -10,7 +10,7 @@
 <script>
 import Monster from './data/monster.json';
 import Location from './data/location.json';
-import Material from './data/material.json';
+import Material from './data/material_new.json';
 import Fextralife from './content_scripts/Fextralife.vue';
 import GetData from './content_scripts/GetData.vue';
 

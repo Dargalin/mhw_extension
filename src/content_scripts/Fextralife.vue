@@ -16,9 +16,9 @@ export default {
       },
     },
     location: {
-      type: Object,
+      type: Array,
       default: () => {
-        return {};
+        return [];
       },
     },
   },
@@ -42,27 +42,23 @@ export default {
         let output = '';
         if (mat.source && mat.source.monster) {
           output = mat.name + '</a>';
-          Object.keys(mat.source.monster).forEach(id => {
-            const mon = this.monster.find(x => x.id == id);
+          mat.source.monster.forEach(id => {
+            const mon = this.monster.find(x => x.name == id.name || 'Tempered ' + x.name == id.name);
             if (mon) {
               // add tempered background
-              output += ` <span class="mhw_ext"><span class="mhw_img ${mat.source.monster[id].tempered ? 'tempered' : ''}"><img src="${browser.runtime.getURL(
-                'images/' + mon.icon
-              )}"></span>`;
+              output += ` <span class="mhw_ext"><span class="mhw_img ${id.tempered ? 'tempered' : ''}"><img src="${mon.icon}"></span>`;
               // add name
-              output += `<span class="mhw_info"><span class="mhw_monster"><a href="${mon.url}">${mat.source.monster[id].tempered ? 'Tempered' : ''} ${mon.name}</a> `;
+              output += `<span class="mhw_info"><span class="mhw_monster"><a href="${mon.url}">${id.name}</a> `;
               // add Stars
-              if (mat.source.monster[id].rate) {
+              /* if (id.rate) {
                 output += '⭐'.repeat(3);
-              }
+              } */
               output += '</span>';
-              Object.keys(mat.source.monster[id].location).forEach(index => {
-                const loc = this.location[index];
-                if (loc) {
-                  output += `<span class="mhw_location"><img style="max-width: unset !important;" src="${browser.runtime.getURL('images/' + loc.icon)}" />${loc.name} (${
-                    mat.source.monster[id].location[index].level
-                  })</span>`;
-                }
+              id.location.forEach(loc => {
+                const url = this.location.find(x => x.name == loc.name).icon;
+                output += `<span class="mhw_location"><img style="max-width: unset !important;" src="${browser.runtime.getURL('images/' + url)}" />${loc.name} (${
+                  loc.level
+                })</span>`;
               });
               output += '</span></span></span>';
             }

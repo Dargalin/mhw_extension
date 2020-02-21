@@ -1,0 +1,2647 @@
+[{
+  "name": "Fierce Dragonvein Bone",
+  "source": {
+    "monster": [{
+      "name": "Great Jagras",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["1", "2", "3"]
+      }]
+    }, {
+      "name": "Pukei-Pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["1", "2", "3"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["1", "2", "3"]
+      }]
+    }, {
+      "name": "Tobi-Kadachi",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["1", "2", "3"]
+      }]
+    }, {
+      "name": "Anjanath",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["1", "2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3", "4"]
+      }]
+    }, {
+      "name": "Banbaro",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["1", "2", "3"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["1", "3", "3"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["1", "2", "3"]
+      }]
+    }, {
+      "name": "Rathian",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["1", "2", "3", "4"]
+      }]
+    }, {
+      "name": "Rathalos",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3"]
+      }]
+    }, {
+      "name": "Nightshade Paolumu",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["1", "2", "3", "4"]
+      }]
+    }, {
+      "name": "Kulu-Ya-Ku",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["1", "2", "3"]
+      }]
+    }, {
+      "name": "Barroth",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["1", "2", "3"]
+      }]
+    }, {
+      "name": "Pink Rathian",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["2", "3", "4"]
+      }]
+    }, {
+      "name": "Tzitzi-Ya-Ku",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["1", "2", "3"]
+      }]
+    }, {
+      "name": "Paolumu",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["1", "2", "3"]
+      }]
+    }, {
+      "name": "Coral Pukei-Pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["1"]
+      }]
+    }, {
+      "name": "Coral Pukei-pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["3"]
+      }]
+    }, {
+      "name": "Great Girros",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["1", "2", "3", "3"]
+      }]
+    }, {
+      "name": "Radobaan",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["1", "2", "3", "3"]
+      }]
+    }, {
+      "name": "Viper Tobi-Kadachi",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["1", "2", "3", "4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Rugged Mane",
+  "source": {
+    "monster": [{
+      "name": "Great Jagras",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["1", "2", "3", "4", "5", "6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Fragrant Poison Sac",
+  "source": {
+    "monster": [{
+      "name": "Pukei-Pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["1", "2", "3"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["1", "2", "3"]
+      }]
+    }]
+  }
+}, {
+  "name": "Blinding Cathode",
+  "source": {
+    "monster": [{
+      "name": "Tobi-Kadachi",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["1", "2", "3"]
+      }]
+    }]
+  }
+}, {
+  "name": "Flickering Flamepelt",
+  "source": {
+    "monster": [{
+      "name": "Anjanath",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["1", "2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3", "4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Ancient Great Horn",
+  "source": {
+    "monster": [{
+      "name": "Banbaro",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["1", "2", "3"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["1", "2", "3", "3"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["1", "2", "3"]
+      }]
+    }]
+  }
+}, {
+  "name": "Queen's Scale",
+  "source": {
+    "monster": [{
+      "name": "Rathian",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["1", "2", "3", "4"]
+      }]
+    }]
+  }
+}, {
+  "name": "King's Scale",
+  "source": {
+    "monster": [{
+      "name": "Rathalos",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3", "4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Obsidian Fur",
+  "source": {
+    "monster": [{
+      "name": "Nightshade Paolumu",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["1", "2", "3", "4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Heavy Dragonvein Bone",
+  "source": {
+    "monster": [{
+      "name": "Nargacuga",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["3", "4", "5"]
+      }]
+    }, {
+      "name": "Fulgur Anjanath",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["2", "3", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["2", "3", "4"]
+      }]
+    }, {
+      "name": "Glavenus",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3", "4"]
+      }]
+    }, {
+      "name": "Tigrex",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["2", "3", "3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["3", "4", "5"]
+      }]
+    }, {
+      "name": "Rathalos",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["4"]
+      }]
+    }, {
+      "name": "Diablos",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3", "4"]
+      }]
+    }, {
+      "name": "Tempered Glavenus",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Legiana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["2", "3", "4"]
+      }]
+    }, {
+      "name": "Coral Pukei-Pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["2"]
+      }]
+    }, {
+      "name": "Odogaron",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["3", "4"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["2", "3", "3", "4"]
+      }]
+    }, {
+      "name": "Banbaro",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["2"]
+      }]
+    }, {
+      "name": "Barioth",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["2", "3", "5"]
+      }]
+    }, {
+      "name": "Tempered Barioth",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Assassin Cutwing",
+  "source": {
+    "monster": [{
+      "name": "Nargacuga",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["3", "4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Dragonvein Solidbone",
+  "source": {
+    "monster": [{
+      "name": "Zinogre",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["3", "4", "5"]
+      }]
+    }, {
+      "name": "Yian Garuga",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["3", "4", "5"]
+      }]
+    }, {
+      "name": "Azure Rathalos",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["3", "4", "5"]
+      }]
+    }, {
+      "name": "Ebony Odogaron",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["3", "3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["3", "4", "5"]
+      }]
+    }, {
+      "name": "Savage Deviljho",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6"]
+      }]
+    }, {
+      "name": "Black Diablos",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["3", "4", "5"]
+      }]
+    }, {
+      "name": "Silver Rathalos",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Acidic Glavenus",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["3", "3", "4", "5"]
+      }]
+    }, {
+      "name": "Brute Tigrex",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Shrieking Legiana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["3", "4", "5"]
+      }]
+    }, {
+      "name": "Stygian Zinogre",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["3", "4", "5", "6"]
+      }]
+    }, {
+      "name": "Rajang",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["4", "5", "6"]
+      }]
+    }, {
+      "name": "",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Charged Deathly Shocker",
+  "source": {
+    "monster": [{
+      "name": "Zinogre",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["3", "4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Crackling Thunderpelt",
+  "source": {
+    "monster": [{
+      "name": "Fulgur Anjanath",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["2", "3", "4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Sinister Silverpelt",
+  "source": {
+    "monster": [{
+      "name": "Yian Garuga",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["3", "4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Azure Scale",
+  "source": {
+    "monster": [{
+      "name": "Azure Rathalos",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["3", "4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Smoldering Tailedge",
+  "source": {
+    "monster": [{
+      "name": "Glavenus",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3", "4"]
+      }]
+    }, {
+      "name": "Tempered Glavenus",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Strongman's Jaw",
+  "source": {
+    "monster": [{
+      "name": "Tigrex",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["2", "3", "3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["3", "4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Soulrender Talon",
+  "source": {
+    "monster": [{
+      "name": "Ebony Odogaron",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["3", "4", "5"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["3", "4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Spiritvein Slogbone",
+  "source": {
+    "monster": [{
+      "name": "Tempered Pukei-Pukei",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["4", "5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["4", "5"]
+      }]
+    }, {
+      "name": "Tempered Tobi-Kadachi",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["4", "5", "6"]
+      }]
+    }, {
+      "name": "Tempered Banbaro",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["4", "5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Anjanath",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Tempered Rathalos",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Tempered Rathian",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Tempered Nightshade Paolumu",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Tempered Barroth",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["4", "5"]
+      }]
+    }, {
+      "name": "Banbaro",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["4"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["4", "5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["4"]
+      }]
+    }, {
+      "name": "Tempered Pink Rathian",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Paolumu",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["4", "5", "6", "7"]
+      }]
+    }, {
+      "name": "Pink Rathian",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Coral Pukei-Pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "7"]
+      }]
+    }, {
+      "name": "Coral Pukei-pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Tempered Radobaan",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["4", "5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Viper Tobi-Kadachi",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Poison Sac",
+  "source": {
+    "monster": [{
+      "name": "Tempered Pukei-Pukei",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["4", "5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Spiritvein Gem Shard",
+  "source": {
+    "monster": [{
+      "name": "Tempered Pukei-Pukei",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["4", "5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["4", "5"]
+      }]
+    }, {
+      "name": "Tempered Tobi-Kadachi",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["4", "5", "6"]
+      }]
+    }, {
+      "name": "Tempered Banbaro",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["4", "5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Anjanath",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Tempered Rathian",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Tempered Nightshade Paolumu",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Tempered Barroth",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["4", "5"]
+      }]
+    }, {
+      "name": "Banbaro",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["4"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["4", "5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["4"]
+      }]
+    }, {
+      "name": "Tempered Pink Rathian",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Paolumu",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["4", "6", "7"]
+      }]
+    }, {
+      "name": "Pink Rathian",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Coral Pukei-Pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "7"]
+      }]
+    }, {
+      "name": "Coral Pukei-pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Tempered Radobaan",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["4", "5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Viper Tobi-Kadachi",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Cathode",
+  "source": {
+    "monster": [{
+      "name": "Tempered Tobi-Kadachi",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["4", "5", "6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Great Horn",
+  "source": {
+    "monster": [{
+      "name": "Tempered Banbaro",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["4", "5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["4", "5", "6", "7"]
+      }]
+    }, {
+      "name": "Banbaro",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["4"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["4", "5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Flamepelt",
+  "source": {
+    "monster": [{
+      "name": "Tempered Anjanath",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Tempered Rathalos",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Spiritvein Gem",
+  "source": {
+    "monster": [{
+      "name": "Tempered Rathalos",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }]
+    }, {
+      "name": "Tempered Fulgur Anjareth",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Tempered Azure Rathalos",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Tempered Nargacuga",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Zinogre",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Scarred Yian Garuga",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Tempered Ebony Odogaron",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Glavenus",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Tempered Tigrex",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Fulgur Anjanath",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Diablo",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Legiana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Fulgur Anjanath",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Odogaron",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Ebony Odogaron",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Nargacuga",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Odogaron",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Acidic Glavenus",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Brute Tigrex",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Banbaro",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["4"]
+      }]
+    }, {
+      "name": "Tempered Legiana",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Barioth",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Shrieking Legiana",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Elder Dragonvein Bone",
+  "source": {
+    "monster": [{
+      "name": "Kushala Daora",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }]
+    }, {
+      "name": "Velkhana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6"]
+      }]
+    }, {
+      "name": "Ruiner Nergigante",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6"]
+      }]
+    }, {
+      "name": "Teostra",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Lunastra",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Kirin",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6"]
+      }]
+    }, {
+      "name": "Namielle",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6"]
+      }]
+    }, {
+      "name": "Blackveil Vaal Hazak",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Stormcall Steelwing",
+  "source": {
+    "monster": [{
+      "name": "Kushala Daora",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Aurora Crownhorn",
+  "source": {
+    "monster": [{
+      "name": "Velkhana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Green Scale",
+  "source": {
+    "monster": [{
+      "name": "Tempered Rathian",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Hide",
+  "source": {
+    "monster": [{
+      "name": "Tempered Nightshade Paolumu",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Spiritvein Solidbone",
+  "source": {
+    "monster": [{
+      "name": "Tempered Fulgur Anjareth",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Tempered Azure Rathalos",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Tempered Nargacuga",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Zinogre",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Scarred Yian Garuga",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Tempered Anjanath",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Tempered Rathalos",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Tempered Ebony Odogaron",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Glavenus",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Tempered Tigrex",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Fulgur Anjanath",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Diablo",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Legiana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Fulgur Anjanath",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Odogaron",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Ebony Odogaron",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Nargacuga",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Savage Deviljho",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Odogaron",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Acidic Glavenus",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Brute Tigrex",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Savage Deviljho",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Banbaro",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["4"]
+      }]
+    }, {
+      "name": "Tempered Legiana",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Barioth",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Shrieking Legiana",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Tempered Viper Tobi-Kadachi",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Tempered Stygian Zinogr",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Thunderpelt",
+  "source": {
+    "monster": [{
+      "name": "Tempered Fulgur Anjareth",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Tempered Fulgur Anjanath",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Fulgur Anjanath",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Bloodstained Ebonhide",
+  "source": {
+    "monster": [{
+      "name": "Savage Deviljho",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Extinction Greathorn",
+  "source": {
+    "monster": [{
+      "name": "Ruiner Nergigante",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["5", "6"]
+      }, {
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Azure Scale",
+  "source": {
+    "monster": [{
+      "name": "Tempered Azure Rathalos",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Cutwing",
+  "source": {
+    "monster": [{
+      "name": "Tempered Nargacuga",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }, {
+      "name": "Nargacuga",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Shocker",
+  "source": {
+    "monster": [{
+      "name": "Zinogre",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Silverpelt",
+  "source": {
+    "monster": [{
+      "name": "Tempered Scarred Yian Garuga",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Red Scale",
+  "source": {
+    "monster": [{
+      "name": "Tempered Rathalos",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Talon",
+  "source": {
+    "monster": [{
+      "name": "Tempered Ebony Odogaron",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }, {
+      "name": "Ebony Odogaron",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Tailedge",
+  "source": {
+    "monster": [{
+      "name": "Tempered Glavenus",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Jaw",
+  "source": {
+    "monster": [{
+      "name": "Tempered Tigrex",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Forest",
+        "level": ["6"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Colorful Plume",
+  "source": {
+    "monster": [{
+      "name": "Kulu-Ya-Ku",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["1", "2", "3", "4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Muddy Crown",
+  "source": {
+    "monster": [{
+      "name": "Barroth",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["1", "2", "3"]
+      }]
+    }]
+  }
+}, {
+  "name": "Twisted Bravehorn",
+  "source": {
+    "monster": [{
+      "name": "Diablos",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3", "4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Pink Scale",
+  "source": {
+    "monster": [{
+      "name": "Pink Rathian",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Coral",
+        "level": ["2", "3", "4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Blackcurl Tyranthorn",
+  "source": {
+    "monster": [{
+      "name": "Black Diablos",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["3", "4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Crown",
+  "source": {
+    "monster": [{
+      "name": "Tempered Barroth",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Twisted Temperhorn",
+  "source": {
+    "monster": [{
+      "name": "Tempered Diablo",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Hellfire Mane",
+  "source": {
+    "monster": [{
+      "name": "Teostra",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Azure Mane",
+  "source": {
+    "monster": [{
+      "name": "Lunastra",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Pink Scale",
+  "source": {
+    "monster": [{
+      "name": "Tempered Pink Rathian",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Wildspire",
+        "level": ["5"]
+      }]
+    }, {
+      "name": "Pink Rathian",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Dazzling Photophore +",
+  "source": {
+    "monster": [{
+      "name": "Tzitzi-Ya-Ku",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["1", "2"]
+      }]
+    }]
+  }
+}, {
+  "name": "Rubbery Shell",
+  "source": {
+    "monster": [{
+      "name": "Paolumu",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["1", "2", "3"]
+      }]
+    }]
+  }
+}, {
+  "name": "Hydrated Sac",
+  "source": {
+    "monster": [{
+      "name": "Coral Pukei-Pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["1"]
+      }]
+    }, {
+      "name": "Coral Pukei-pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["3", "4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Smooth Icehide",
+  "source": {
+    "monster": [{
+      "name": "Legiana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["2", "3", "4"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["2", "3", "4"]
+      }]
+    }, {
+      "name": "Coral Pukei-Pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["2"]
+      }]
+    }]
+  }
+}, {
+  "name": "Fatal Rendclaw",
+  "source": {
+    "monster": [{
+      "name": "Odogaron",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["3", "4"]
+      }, {
+        "name": "Guiding Lands: Rotten",
+        "level": ["2", "3", "3", "4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Rubbery Shell",
+  "source": {
+    "monster": [{
+      "name": "Paolumu",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["4", "5", "6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Fierce Dragonvein Solidbone",
+  "source": {
+    "monster": [{
+      "name": "Coral Pukei-pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Icehide",
+  "source": {
+    "monster": [{
+      "name": "Legiana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Legiana",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Solemn Azure Horne",
+  "source": {
+    "monster": [{
+      "name": "Kirin",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Torrent Sac",
+  "source": {
+    "monster": [{
+      "name": "Coral Pukei-Pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "7"]
+      }]
+    }, {
+      "name": "Coral Pukei-pukei",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Enchanting Finehide",
+  "source": {
+    "monster": [{
+      "name": "Namielle",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Spritivein Gem Shard",
+  "source": {
+    "monster": [{
+      "name": "Paolumu",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Rendclaw",
+  "source": {
+    "monster": [{
+      "name": "Odogaron",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["5", "6", "7"]
+      }]
+    }, {
+      "name": "Tempered Odogaron",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Scorching Scale",
+  "source": {
+    "monster": [{
+      "name": "Silver Rathalos",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Dazzling Photphone",
+  "source": {
+    "monster": [{
+      "name": "Tzitzi-Ya-Ku",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Elder Spiritvein Bone",
+  "source": {
+    "monster": [{
+      "name": "Kirin",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Namielle",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Velkhana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Blackveil Vaal Hazak",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Velkhana",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Ruiner Nergigante",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Azure Horn",
+  "source": {
+    "monster": [{
+      "name": "Kirin",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Great Spiritvein Gem",
+  "source": {
+    "monster": [{
+      "name": "Kirin",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Namielle",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Velkhana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Savage Deviljho",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Blackveil Vaal Hazak",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Velkhana",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Savage Deviljho",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Ruiner Nergigante",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Stygian Zinogr",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Trancehide",
+  "source": {
+    "monster": [{
+      "name": "Namielle",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Crownhorn",
+  "source": {
+    "monster": [{
+      "name": "Velkhana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Velkhana",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Spattered Hide",
+  "source": {
+    "monster": [{
+      "name": "Savage Deviljho",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Coral",
+        "level": ["7"]
+      }]
+    }, {
+      "name": "Tempered Savage Deviljho",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }, {
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Night Hood",
+  "source": {
+    "monster": [{
+      "name": "Great Girros",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["1", "2", "3", "3", "4", "5", "6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Inkstained Oilshell +",
+  "source": {
+    "monster": [{
+      "name": "Radobaan",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["1", "2", "3", "3"]
+      }]
+    }]
+  }
+}, {
+  "name": "Honed Tailblade",
+  "source": {
+    "monster": [{
+      "name": "Acidic Glavenus",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["3", "3", "4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Crackling Trumpet",
+  "source": {
+    "monster": [{
+      "name": "Fulgur Anjanath",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["3"]
+      }]
+    }]
+  }
+}, {
+  "name": "Soul Render Talon",
+  "source": {
+    "monster": [{
+      "name": "Ebony Odogaron",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["3"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Oilshell +",
+  "source": {
+    "monster": [{
+      "name": "Tempered Radobaan",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["4", "5", "6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Twilight Fang",
+  "source": {
+    "monster": [{
+      "name": "Blackveil Vaal Hazak",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["5", "6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Tailblade",
+  "source": {
+    "monster": [{
+      "name": "Tempered Acidic Glavenus",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Shuddering Darkjaw",
+  "source": {
+    "monster": [{
+      "name": "Brute Tigrex",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Twilight Fang",
+  "source": {
+    "monster": [{
+      "name": "Tempered Blackveil Vaal Hazak",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Ebonjaw",
+  "source": {
+    "monster": [{
+      "name": "Tempered Brute Tigrex",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Rotten",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Enticing Viperthorn",
+  "source": {
+    "monster": [{
+      "name": "Viper Tobi-Kadachi",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["1", "2", "3", "4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Coldblooded Icefang",
+  "source": {
+    "monster": [{
+      "name": "Barioth",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["2", "3", "5"]
+      }]
+    }, {
+      "name": "Tempered Barioth",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["4"]
+      }]
+    }]
+  }
+}, {
+  "name": "Crystal Frozenhide",
+  "source": {
+    "monster": [{
+      "name": "Shrieking Legiana",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["3", "4", "5"]
+      }]
+    }]
+  }
+}, {
+  "name": "Gushing Dragonhold",
+  "source": {
+    "monster": [{
+      "name": "Stygian Zinogre",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["3", "4", "5", "6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Bloodthirsty Glimmerpelt",
+  "source": {
+    "monster": [{
+      "name": "Rajang",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["4", "5", "6"]
+      }]
+    }, {
+      "name": "",
+      "tempered": false,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Viperthorn",
+  "source": {
+    "monster": [{
+      "name": "Tempered Viper Tobi-Kadachi",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["5", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Icefang",
+  "source": {
+    "monster": [{
+      "name": "Tempered Barioth",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Frosthide",
+  "source": {
+    "monster": [{
+      "name": "Tempered Shrieking Legiana",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["6", "7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Vipethorn",
+  "source": {
+    "monster": [{
+      "name": "Tempered Viper Tobi-Kadachi",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["6"]
+      }]
+    }]
+  }
+}, {
+  "name": "Annihilating Temperhorn",
+  "source": {
+    "monster": [{
+      "name": "Tempered Ruiner Nergigante",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }]
+  }
+}, {
+  "name": "Tempered Dragonhold",
+  "source": {
+    "monster": [{
+      "name": "Tempered Stygian Zinogr",
+      "tempered": true,
+      "location": [{
+        "name": "Guiding Lands: Tundra",
+        "level": ["7"]
+      }]
+    }]
+  }
+}]

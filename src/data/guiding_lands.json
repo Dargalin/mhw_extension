@@ -1,160 +1,3168 @@
-[
-  {
-    "name": "Guiding Lands: Forest",
-    "data": {
-      "Great Jagras": { "1": 3, "2": 3, "3": 2, "4": 1, "5": 1, "6": 1 },
-      "Pukei-Pukei": { "1": 3, "2": 3, "3": 2 },
-      "Tobi-Kadachi": { "1": 3, "2": 3, "3": 2 },
-      "Anjanath": { "1": 2, "2": 2, "3": 3, "4": 2 },
-      "Banbaro": { "2": 3, "3": 2 },
-      "Rathian": { "2": 2, "3": 2, "4": 1 },
-      "Rathalos": { "2": 2, "3": 3, "4": 3 },
-      "Nightshade Paolumu": { "2": 2, "3": 2, "4": 1 },
-      "Nargacuga": { "2": 2, "3": 3, "4": 3, "5": 2 },
-      "Zinogre": { "2": 2, "3": 3, "4": 3, "5": 3, "6": 3 },
-      "Fulgur Anjanath": { "2": 1, "3": 2, "4": 1 },
-      "Yian Garuga": { "3": 3, "4": 3, "5": 3 },
-      "Azure Rathalos": { "3": 2, "4": 3, "5": 3 },
-      "Glavenus": { "3": 2, "4": 1, "5": 1 },
-      "Tigrex": { "3": 1, "4": 1, "5": 1 },
-      "Ebony Odogaron": { "3": 1, "4": 2, "5": 1 },
-      "Tempered Pukei-Pukei": { "4": 3, "5": 2, "6": 1 },
-      "Tempered Tobi-Kadachi": { "4": 3, "5": 2, "6": 1 },
-      "Tempered Banbaro": { "4": 3, "5": 2, "6": 1 },
-      "Tempered Anjanath": { "5": 3, "6": 2 },
-      "Tempered Rathalos": { "5": 3, "6": 2 },
-      "Kushala Daora": { "5": 3, "6": 3 },
-      "Velkhana": { "5": 3, "6": 2 },
-      "Tempered Rathian": { "5": 2, "6": 1 },
-      "Tempered Nightshade Paolumu": { "5": 2, "6": 1 },
-      "Tempered Fulgur Anjareth": { "5": 2 },
-      "Savage Deviljho": { "5": 2, "6": 3 },
-      "Ruiner Nergigante": { "5": 1, "6": 1 },
-      "Tempered Azure Rathalos": { "6": 3 },
-      "Tempered Nargacuga": { "6": 3 },
-      "Tempered Scarred Yian Garuga": { "6": 3 },
-      "Tempered Ebony Odogaron": { "6": 2 },
-      "Tempered Glavenus": { "6": 1 },
-      "Tempered Tigrex": { "6": 1 },
-      "Tempered Fulgur Anjanath": { "6": 1 }
-    }
-  },
-  {
-    "name": "Guiding Lands: Wildspire",
-    "data": {
-      "Kulu-Ya-Ku": { "1": 3, "2": 3, "3": 2, "4": 1, "5": 1 },
-      "Barroth": { "1": 3, "2": 3, "3": 2 },
-      "Pukei-Pukei": { "1": 2, "2": 1, "3": 1 },
-      "Rathian": { "1": 1, "2": 3, "3": 3, "4": 2 },
-      "Nightshade Paolumu": { "1": 1, "2": 3, "3": 3, "4": 2 },
-      "Anjanath": { "2": 2, "3": 2, "4": 1 },
-      "Diablos": { "2": 2, "3": 3, "4": 3 },
-      "Pink Rathian": { "2": 2, "3": 2, "4": 1 },
-      "Glavenus": { "2": 2, "3": 3, "4": 3 },
-      "Banbaro": { "2": 1, "3": 1, "4": 1 },
-      "Fulgur Anjanath": { "2": 1, "3": 2, "4": 1 },
-      "Black Diablos": { "3": 2, "4": 3, "5": 3 },
-      "Tigrex": { "3": 1, "4": 1, "5": 1 },
-      "Ebony Odogaron": { "3": 1, "4": 2, "5": 1 },
-      "Tempered Barroth": { "4": 3, "5": 2 },
-      "Tempered Pukei-Pukei": { "4": 3, "5": 1 },
-      "Tempered Rathian": { "5": 3 },
-      "Tempered Diablo": { "5": 3 },
-      "Teostra": { "5": 3 },
-      "Lunastra": { "5": 3 },
-      "Tempered Nightshade Paolumu": { "5": 3 },
-      "Velkhana": { "5": 3 },
-      "Tempered Anjanath": { "5": 2 },
-      "Tempered Pink Rathian": { "5": 2 },
-      "Tempered Glavenus": { "5": 2 },
-      "Tempered Fulgur Anjanath": { "5": 2 },
-      "Savage Deviljho": { "5": 2 },
-      "Tempered Banbaro": { "5": 1 },
-      "Ruiner Nergigante": { "5": 1 }
-    }
-  },
-  {
-    "name": "Guiding Lands: Coral",
-    "data": {
-      "Tzitzi-Ya-Ku": { "1": 3, "2": 3, "3": 2, "4": 1, "5": 1, "6": 1, "7": 1 },
-      "Banbaro": { "1": 2, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1 },
-      "Paolumu": { "1": 1, "2": 3, "3": 3, "4": 3, "5": 2, "6": 1, "7": 1 },
-      "Coral Pukei-Pukei": { "1": 1, "2": 3, "5": 3, "7": 1 },
-      "Pink Rathian": { "2": 3, "3": 3, "4": 2, "5": 3, "6": 2, "7": 1 },
-      "Legiana": { "2": 2, "3": 3, "4": 3, "5": 3, "6": 2, "7": 1 },
-      "Fulgur Anjanath": { "2": 1, "3": 2, "4": 1, "5": 2, "6": 1, "7": 1 },
-      "Coral Pukei-pukei": { "3": 3, "4": 2, "6": 3 },
-      "Nargacuga": { "3": 3, "4": 2, "5": 1, "6": 1, "7": 1 },
-      "Odogaron": { "3": 2, "4": 1, "5": 1, "6": 1, "7": 1 },
-      "Ebony Odogaron": { "3": 2, "4": 3, "5": 2, "6": 2, "7": 1 },
-      "Zinogre": { "3": 2, "4": 2, "5": 2, "6": 2, "7": 1 },
-      "Kirin": { "5": 3, "6": 3, "7": 3 },
-      "Velkhana": { "5": 3, "6": 2, "7": 2 },
-      "Namielle": { "5": 3, "6": 3, "7": 3 },
-      "Savage Deviljho": { "5": 2, "6": 3, "7": 2 },
-      "Ruiner Nergigante": { "5": 1, "6": 1, "7": 2 },
-      "Silver Rathalos": { "6": 2, "7": 3 }
-    }
-  },
-  {
-    "name": "Guiding Lands: Rotten",
-    "data": {
-      "Great Girros": { "1": 3, "2": 3, "3": 2, "4": 1, "5": 1, "6": 1, "7": 1 },
-      "Banbaro": { "1": 2, "2": 1, "3": 1, "4": 1 },
-      "Radobaan": { "1": 1, "2": 3, "3": 3 },
-      "Odogaron": { "2": 1, "3": 3, "4": 3 },
-      "Tigrex": { "2": 1, "3": 3, "4": 3, "5": 2 },
-      "Fulgur Anjanath": { "2": 1, "3": 2, "4": 1, "5": 2 },
-      "Acidic Glavenus": { "3": 1, "4": 3, "5": 3 },
-      "Ebony Odogaron": { "3": 1, "4": 2, "5": 1 },
-      "Tempered Radobaan": { "4": 3, "5": 2, "6": 1, "7": 1 },
-      "Tempered Odogaron": { "5": 3, "6": 2, "7": 1 },
-      "Velkhana": { "5": 3, "6": 2 },
-      "Blackveil Vaal Hazak": { "5": 3, "6": 3 },
-      "Savage Deviljho": { "5": 2, "6": 3 },
-      "Tempered Banbaro": { "5": 1, "6": 1, "7": 1 },
-      "Ruiner Nergigante": { "5": 1, "6": 1, "7": 3 },
-      "Tempered Tigrex": { "6": 3, "7": 2 },
-      "Tempered Acidic Glavenus": { "6": 3, "7": 2 },
-      "Brute Tigrex": { "6": 3 },
-      "Tempered Ebony Odogaron": { "6": 2, "7": 1 },
-      "Tempered Fulgur Anjanath": { "6": 1, "7": 1 },
-      "Tempered Blackveil Vaal Hazak": { "7": 3 },
-      "Tempered Brute Tigrex": { "7": 3 },
-      "Tempered Velkhana": { "7": 2 },
-      "Tempered Savage Deviljho": { "7": 2 }
-    }
-  },
-  { "name": "Guiding Lands: Volcanic", "data": {} },
-  {
-    "name": "Guiding Lands: Tundra",
-    "data": {
-      "Banbaro": { "1": 3, "2": 2, "3": 1 },
-      "Viper Tobi-Kadachi": { "1": 2, "2": 3, "3": 3, "4": 2 },
-      "Legiana": { "2": 2, "3": 3, "4": 2 },
-      "Barioth": { "2": 2, "3": 3, "5": 2 },
-      "Fulgur Anjanath": { "2": 1, "3": 2, "4": 1 },
-      "Tigrex": { "3": 3, "4": 2, "5": 1 },
-      "Shrieking Legiana": { "3": 2, "4": 3, "5": 3 },
-      "Stygian Zinogre": { "3": 2, "4": 3, "5": 3, "6": 3 },
-      "Ebony Odogaron": { "3": 1, "4": 2, "5": 1 },
-      "Tempered Banbaro": { "4": 3, "5": 3, "6": 1, "7": 1 },
-      "Tempered Barioth": { "4": 3, "6": 3, "7": 2 },
-      "Rajang": { "4": 1, "5": 2, "6": 2 },
-      "Tempered Legiana": { "5": 3, "6": 2, "7": 1 },
-      "Tempered Viper Tobi-Kadachi": { "5": 3, "6": 2, "7": 1 },
-      "Velkhana": { "5": 3, "6": 3 },
-      "Tempered Fulgur Anjanath": { "5": 2, "6": 1, "7": 1 },
-      "Savage Deviljho": { "5": 2, "6": 3 },
-      "Ruiner Nergigante": { "5": 1, "6": 1 },
-      "Tempered Shrieking Legiana": { "6": 3, "7": 2 },
-      "Tempered Tigrex": { "6": 2, "7": 1 },
-      "Tempered Ebony Odogaron": { "6": 2, "7": 1 },
-      "Tempered Velkhana": { "7": 3 },
-      "Tempered Ruiner Nergigante": { "7": 3 },
-      "": { "7": 0 },
-      "Tempered Stygian Zinogr": { "7": 3 },
-      "Tempered Savage Deviljho": { "7": 2 }
+[{
+  "name": "Guiding Lands: Forest",
+  "data": {
+    "Great Jagras": {
+      "level": {
+        "1": {
+          "rate": 3
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 1
+        },
+        "6": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Rugged Mane",
+        "rate": 5
+      }]
+    },
+    "Pukei-Pukei": {
+      "level": {
+        "1": {
+          "rate": 3
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Fragrant Poison Sac",
+        "rate": 5
+      }]
+    },
+    "Tobi-Kadachi": {
+      "level": {
+        "1": {
+          "rate": 3
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Blinding Cathode",
+        "rate": 5
+      }]
+    },
+    "Anjanath": {
+      "level": {
+        "1": {
+          "rate": 2
+        },
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Flickering Flamepelt",
+        "rate": 4
+      }]
+    },
+    "Banbaro": {
+      "level": {
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Ancient Great Horn",
+        "rate": 5
+      }]
+    },
+    "Rathian": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Queen's Scale",
+        "rate": 5
+      }]
+    },
+    "Rathalos": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "King's Scale",
+        "rate": 4
+      }, {
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }]
+    },
+    "Nightshade Paolumu": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Obsidian Fur",
+        "rate": 5
+      }]
+    },
+    "Nargacuga": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Assassin Cutwing",
+        "rate": 4
+      }]
+    },
+    "Zinogre": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Charged Deathly Shocker",
+        "rate": 4
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Shocker",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Fulgur Anjanath": {
+      "level": {
+        "2": {
+          "rate": 1
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Crackling Thunderpelt",
+        "rate": 4
+      }]
+    },
+    "Yian Garuga": {
+      "level": {
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Sinister Silverpelt",
+        "rate": 5
+      }, {
+        "name": "Sinister Silverpit ",
+        "rate": null
+      }]
+    },
+    "Azure Rathalos": {
+      "level": {
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Azure Scale",
+        "rate": 4
+      }]
+    },
+    "Glavenus": {
+      "level": {
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Smoldering Tailedge",
+        "rate": 5
+      }]
+    },
+    "Tigrex": {
+      "level": {
+        "3": {
+          "rate": 1
+        },
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Strongman's Jaw",
+        "rate": 5
+      }]
+    },
+    "Ebony Odogaron": {
+      "level": {
+        "3": {
+          "rate": 1
+        },
+        "4": {
+          "rate": 2
+        },
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Soulrender Talon",
+        "rate": 5
+      }]
+    },
+    "Tempered Pukei-Pukei": {
+      "level": {
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Poison Sac",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 2
+      }]
+    },
+    "Tempered Tobi-Kadachi": {
+      "level": {
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Cathode",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 2
+      }]
+    },
+    "Tempered Banbaro": {
+      "level": {
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Great Horn",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Tempered Anjanath": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Flamepelt",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }]
+    },
+    "Tempered Rathalos": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Flamepelt",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Red Scale",
+        "rate": 5
+      }]
+    },
+    "Kushala Daora": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Stormcall Steelwing",
+        "rate": 5
+      }]
+    },
+    "Velkhana": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Aurora Crownhorn",
+        "rate": 5
+      }]
+    },
+    "Tempered Rathian": {
+      "level": {
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Green Scale",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Tempered Nightshade Paolumu": {
+      "level": {
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Hide",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 2
+      }]
+    },
+    "Tempered Fulgur Anjareth": {
+      "level": {
+        "5": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Thunderpelt",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Savage Deviljho": {
+      "level": {
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Bloodstained Ebonhide",
+        "rate": 4
+      }]
+    },
+    "Ruiner Nergigante": {
+      "level": {
+        "5": {
+          "rate": 1
+        },
+        "6": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Extinction Greathorn",
+        "rate": 4
+      }]
+    },
+    "Tempered Azure Rathalos": {
+      "level": {
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Azure Scale",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Nargacuga": {
+      "level": {
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Cutwing",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Scarred Yian Garuga": {
+      "level": {
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Silverpelt",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Ebony Odogaron": {
+      "level": {
+        "6": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Talon",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Glavenus": {
+      "level": {
+        "6": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Tailedge",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Tigrex": {
+      "level": {
+        "6": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Jaw",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Fulgur Anjanath": {
+      "level": {
+        "6": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Thunderpelt",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
     }
   }
-]
+}, {
+  "name": "Guiding Lands: Wildspire",
+  "data": {
+    "Kulu-Ya-Ku": {
+      "level": {
+        "1": {
+          "rate": 3
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Colorful Plume",
+        "rate": 5
+      }]
+    },
+    "Barroth": {
+      "level": {
+        "1": {
+          "rate": 3
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Muddy Crown",
+        "rate": 5
+      }]
+    },
+    "Pukei-Pukei": {
+      "level": {
+        "1": {
+          "rate": 2
+        },
+        "2": {
+          "rate": 1
+        },
+        "3": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Fragrant Poison Sac",
+        "rate": 5
+      }]
+    },
+    "Rathian": {
+      "level": {
+        "1": {
+          "rate": 1
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Queen's Scale",
+        "rate": 4
+      }]
+    },
+    "Nightshade Paolumu": {
+      "level": {
+        "1": {
+          "rate": 1
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Obsidian Fur",
+        "rate": 4
+      }]
+    },
+    "Anjanath": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Flickering Flamepelt",
+        "rate": 5
+      }, {
+        "name": "Flickering Flamepit",
+        "rate": 5
+      }]
+    },
+    "Diablos": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Twisted Bravehorn",
+        "rate": 4
+      }]
+    },
+    "Pink Rathian": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Pink Scale",
+        "rate": 5
+      }]
+    },
+    "Glavenus": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Smoldering Tailedge",
+        "rate": 4
+      }]
+    },
+    "Banbaro": {
+      "level": {
+        "2": {
+          "rate": 1
+        },
+        "3": {
+          "rate": 1
+        },
+        "4": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Ancient Great Horn",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Great Horn",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Fulgur Anjanath": {
+      "level": {
+        "2": {
+          "rate": 1
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Cracking Thunderpelt",
+        "rate": 4
+      }, {
+        "name": "Crackling Thunderpelt",
+        "rate": 5
+      }]
+    },
+    "Black Diablos": {
+      "level": {
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Blackcurl Tyranthorn",
+        "rate": 4
+      }]
+    },
+    "Tigrex": {
+      "level": {
+        "3": {
+          "rate": 1
+        },
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Strongman's Jaw",
+        "rate": 5
+      }]
+    },
+    "Ebony Odogaron": {
+      "level": {
+        "3": {
+          "rate": 1
+        },
+        "4": {
+          "rate": 2
+        },
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Soulrender Talon",
+        "rate": 4
+      }, {
+        "name": "Dragonvein Soldbone",
+        "rate": 4
+      }, {
+        "name": "Dragonvein Solidbone ",
+        "rate": 4
+      }]
+    },
+    "Tempered Barroth": {
+      "level": {
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Crown",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 2
+      }]
+    },
+    "Tempered Pukei-Pukei": {
+      "level": {
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Poison Sac",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 2
+      }]
+    },
+    "Tempered Rathian": {
+      "level": {
+        "5": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Green Scale",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Tempered Diablo": {
+      "level": {
+        "5": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Twisted Temperhorn",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Teostra": {
+      "level": {
+        "5": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Hellfire Mane",
+        "rate": 5
+      }]
+    },
+    "Lunastra": {
+      "level": {
+        "5": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Azure Mane",
+        "rate": 5
+      }]
+    },
+    "Tempered Nightshade Paolumu": {
+      "level": {
+        "5": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Hide",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Velkhana": {
+      "level": {
+        "5": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Aurora Crownhorn",
+        "rate": null
+      }]
+    },
+    "Tempered Anjanath": {
+      "level": {
+        "5": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Flamepelt",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Tempered Pink Rathian": {
+      "level": {
+        "5": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Pink Scale",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Tempered Glavenus": {
+      "level": {
+        "5": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Smoldering Tailedge",
+        "rate": 5
+      }]
+    },
+    "Tempered Fulgur Anjanath": {
+      "level": {
+        "5": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Thunderpelt",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Savage Deviljho": {
+      "level": {
+        "5": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Bloodstained Ebonhide",
+        "rate": 4
+      }]
+    },
+    "Tempered Banbaro": {
+      "level": {
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Great Horn",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Ruiner Nergigante": {
+      "level": {
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Extinction Greathorn",
+        "rate": 4
+      }]
+    }
+  }
+}, {
+  "name": "Guiding Lands: Coral",
+  "data": {
+    "Tzitzi-Ya-Ku": {
+      "level": {
+        "1": {
+          "rate": 3
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 1
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Dazzling Photophore +",
+        "rate": 5
+      }, {
+        "name": "Dazzling Photophone",
+        "rate": 5
+      }, {
+        "name": "Dazzling Photphone",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Banbaro": {
+      "level": {
+        "1": {
+          "rate": 2
+        },
+        "2": {
+          "rate": 1
+        },
+        "3": {
+          "rate": 1
+        },
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 1
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Ancient Great Horn",
+        "rate": 4
+      }, {
+        "name": "Ancient Great Horne",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Great Horn",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }, {
+        "name": "Tempered Great Home",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "⭐",
+        "rate": null
+      }, {
+        "name": "⭐)",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Paolumu": {
+      "level": {
+        "1": {
+          "rate": 1
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Rubbery Shell",
+        "rate": 4
+      }, {
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Rubbery Shell",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }, {
+        "name": "Spritivein Gem Shard",
+        "rate": 3
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Coral Pukei-Pukei": {
+      "level": {
+        "1": {
+          "rate": 1
+        },
+        "2": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 3
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Hydrated Sac",
+        "rate": 4
+      }, {
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Smooth Icehide",
+        "rate": 4
+      }, {
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Torrent Sac",
+        "rate": 4
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "⭐",
+        "rate": null
+      }, {
+        "name": "⭐)",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Pink Rathian": {
+      "level": {
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 2
+        },
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Pink Scale",
+        "rate": 5
+      }, {
+        "name": "Pink Scale ",
+        "rate": null
+      }, {
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Pink Scale",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "⭐",
+        "rate": null
+      }, {
+        "name": "⭐)",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Legiana": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Smooth Icehide",
+        "rate": 4
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Icehide",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "⭐",
+        "rate": null
+      }, {
+        "name": "⭐)",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Fulgur Anjanath": {
+      "level": {
+        "2": {
+          "rate": 1
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Crackling Thunderpelt",
+        "rate": 4
+      }, {
+        "name": "Crackling Thunderpelt ",
+        "rate": null
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Thunderpelt",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "⭐",
+        "rate": null
+      }, {
+        "name": "⭐)",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Coral Pukei-pukei": {
+      "level": {
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Hydrated Sac",
+        "rate": 5
+      }, {
+        "name": "Fierce Dragonvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Torrent Sac",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Nargacuga": {
+      "level": {
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 2
+        },
+        "5": {
+          "rate": 1
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Assassin Cutwing",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Cutwing",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "⭐",
+        "rate": null
+      }, {
+        "name": "⭐)",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Odogaron": {
+      "level": {
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 1
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Fatal Rendclaw",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Rendclaw",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "⭐",
+        "rate": null
+      }, {
+        "name": "⭐)",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Ebony Odogaron": {
+      "level": {
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Soulrender Talon",
+        "rate": 4
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Talon",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "⭐",
+        "rate": null
+      }, {
+        "name": "⭐)",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Zinogre": {
+      "level": {
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 2
+        },
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Charged Deathly Shocker",
+        "rate": 4
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Shocker",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "⭐",
+        "rate": null
+      }, {
+        "name": "⭐)",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Kirin": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 3
+        },
+        "7": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Solemn Azure Horne",
+        "rate": 5
+      }, {
+        "name": "Elder Spiritvein Bone",
+        "rate": 4
+      }, {
+        "name": "Tempered Azure Horn",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "Great Spiritvein Gem",
+        "rate": 1
+      }]
+    },
+    "Velkhana": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Aurora Crownhorn",
+        "rate": 5
+      }, {
+        "name": "Aurora Crownhorn ",
+        "rate": null
+      }, {
+        "name": "Elder Spiritvein Bone",
+        "rate": 4
+      }, {
+        "name": "Tempered Crownhorn",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "Great Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Namielle": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 3
+        },
+        "7": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Enchanting Finehide",
+        "rate": 5
+      }, {
+        "name": "Elder Spiritvein Bone",
+        "rate": 4
+      }, {
+        "name": "Tempered Trancehide",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "Great Spiritvein Gem",
+        "rate": 1
+      }]
+    },
+    "Savage Deviljho": {
+      "level": {
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 3
+        },
+        "7": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Bloodstained Ebonhide",
+        "rate": 4
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Spattered Hide",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "Great Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Ruiner Nergigante": {
+      "level": {
+        "5": {
+          "rate": 1
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Extinction Greathorn",
+        "rate": 4
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    },
+    "Silver Rathalos": {
+      "level": {
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": null
+      }, {
+        "name": "",
+        "rate": null
+      }, {
+        "name": "Scorching Scale",
+        "rate": 4
+      }, {
+        "name": "",
+        "rate": null
+      }]
+    }
+  }
+}, {
+  "name": "Guiding Lands: Rotten",
+  "data": {
+    "Great Girros": {
+      "level": {
+        "1": {
+          "rate": 3
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 1
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Night Hood",
+        "rate": 5
+      }, {
+        "name": "Night Hood ",
+        "rate": null
+      }]
+    },
+    "Banbaro": {
+      "level": {
+        "1": {
+          "rate": 2
+        },
+        "2": {
+          "rate": 1
+        },
+        "3": {
+          "rate": 1
+        },
+        "4": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Ancient Great Horn",
+        "rate": 4
+      }, {
+        "name": "Heavy Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Great Horn",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Radobaan": {
+      "level": {
+        "1": {
+          "rate": 1
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Inkstained Oilshell +",
+        "rate": 4
+      }]
+    },
+    "Odogaron": {
+      "level": {
+        "2": {
+          "rate": 1
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Fatal Rendclaw",
+        "rate": 4
+      }]
+    },
+    "Tigrex": {
+      "level": {
+        "2": {
+          "rate": 1
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Strongman's Jaw",
+        "rate": 4
+      }]
+    },
+    "Fulgur Anjanath": {
+      "level": {
+        "2": {
+          "rate": 1
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Crackling Thunderpelt",
+        "rate": 4
+      }, {
+        "name": "Crackling Trumpet",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Thunderpelt",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Acidic Glavenus": {
+      "level": {
+        "3": {
+          "rate": 1
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Honed Tailblade",
+        "rate": 4
+      }]
+    },
+    "Ebony Odogaron": {
+      "level": {
+        "3": {
+          "rate": 1
+        },
+        "4": {
+          "rate": 2
+        },
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Soulrender Talon",
+        "rate": 4
+      }, {
+        "name": "Soul Render Talon",
+        "rate": 4
+      }]
+    },
+    "Tempered Radobaan": {
+      "level": {
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Oilshell +",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Tempered Odogaron": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Rendclaw",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Velkhana": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Aurora Crownhorn",
+        "rate": 5
+      }]
+    },
+    "Blackveil Vaal Hazak": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Twilight Fang",
+        "rate": 5
+      }]
+    },
+    "Savage Deviljho": {
+      "level": {
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Bloodstained Ebonhide",
+        "rate": 5
+      }]
+    },
+    "Tempered Banbaro": {
+      "level": {
+        "5": {
+          "rate": 1
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Great Horn",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }, {
+        "name": "Spiritveing Slogbone",
+        "rate": 3
+      }]
+    },
+    "Ruiner Nergigante": {
+      "level": {
+        "5": {
+          "rate": 1
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Extinction Greathorn",
+        "rate": 4
+      }]
+    },
+    "Tempered Tigrex": {
+      "level": {
+        "6": {
+          "rate": 3
+        },
+        "7": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Jaw",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Acidic Glavenus": {
+      "level": {
+        "6": {
+          "rate": 3
+        },
+        "7": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Tailblade",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Brute Tigrex": {
+      "level": {
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Shuddering Darkjaw",
+        "rate": 5
+      }]
+    },
+    "Tempered Ebony Odogaron": {
+      "level": {
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Talon",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Fulgur Anjanath": {
+      "level": {
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Thunderpelt",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Blackveil Vaal Hazak": {
+      "level": {
+        "7": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Spiritvein Bone",
+        "rate": 4
+      }, {
+        "name": "Tempered Twilight Fang",
+        "rate": 5
+      }, {
+        "name": "Great Spiritvein Gem",
+        "rate": 1
+      }]
+    },
+    "Tempered Brute Tigrex": {
+      "level": {
+        "7": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Ebonjaw",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Velkhana": {
+      "level": {
+        "7": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Elder Spiritvein Bone",
+        "rate": 4
+      }, {
+        "name": "Tempered Crownhorn",
+        "rate": 5
+      }, {
+        "name": "Great Spiritvein Gem",
+        "rate": 1
+      }]
+    },
+    "Tempered Savage Deviljho": {
+      "level": {
+        "7": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Spattered Hide",
+        "rate": null
+      }, {
+        "name": "Great Spiritvein Gem",
+        "rate": 1
+      }]
+    }
+  }
+}, {
+  "name": "Guiding Lands: Volcanic",
+  "data": {}
+}, {
+  "name": "Guiding Lands: Tundra",
+  "data": {
+    "Banbaro": {
+      "level": {
+        "1": {
+          "rate": 3
+        },
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": null
+      }, {
+        "name": "Ancient Great Horn",
+        "rate": 4
+      }]
+    },
+    "Viper Tobi-Kadachi": {
+      "level": {
+        "1": {
+          "rate": 2
+        },
+        "2": {
+          "rate": 3
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Fierce Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Enticing Viperthorn",
+        "rate": 4
+      }]
+    },
+    "Legiana": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Smooth Icehide",
+        "rate": 4
+      }]
+    },
+    "Barioth": {
+      "level": {
+        "2": {
+          "rate": 2
+        },
+        "3": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Coldblooded Icefang",
+        "rate": 4
+      }]
+    },
+    "Fulgur Anjanath": {
+      "level": {
+        "2": {
+          "rate": 1
+        },
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": null
+      }, {
+        "name": "Crackling Thunderpelt",
+        "rate": 4
+      }, {
+        "name": "Crackling Thunderpelt ",
+        "rate": null
+      }]
+    },
+    "Tigrex": {
+      "level": {
+        "3": {
+          "rate": 3
+        },
+        "4": {
+          "rate": 2
+        },
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Strongman's Jaw",
+        "rate": 5
+      }]
+    },
+    "Shrieking Legiana": {
+      "level": {
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Crystal Frozenhide",
+        "rate": 4
+      }]
+    },
+    "Stygian Zinogre": {
+      "level": {
+        "3": {
+          "rate": 2
+        },
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Gushing Dragonhold",
+        "rate": 4
+      }]
+    },
+    "Ebony Odogaron": {
+      "level": {
+        "3": {
+          "rate": 1
+        },
+        "4": {
+          "rate": 2
+        },
+        "5": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Soulrender Talon",
+        "rate": 4
+      }]
+    },
+    "Tempered Banbaro": {
+      "level": {
+        "4": {
+          "rate": 3
+        },
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Great Horn",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 3
+      }, {
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }]
+    },
+    "Tempered Barioth": {
+      "level": {
+        "4": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 3
+        },
+        "7": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Heavy Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Coldblooded Icefang",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Icefang",
+        "rate": null
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Rajang": {
+      "level": {
+        "4": {
+          "rate": 1
+        },
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Bloodthirsty Glimmerpelt",
+        "rate": 4
+      }, {
+        "name": "Bloodsthirsty Glimmerpelt",
+        "rate": 4
+      }]
+    },
+    "Tempered Legiana": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Icehide",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Viper Tobi-Kadachi": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Slogbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Viperthorn",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem Shard",
+        "rate": 3
+      }, {
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Vipethorn",
+        "rate": 5
+      }]
+    },
+    "Velkhana": {
+      "level": {
+        "5": {
+          "rate": 3
+        },
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 4
+      }, {
+        "name": "Aurora Crownhorn",
+        "rate": 5
+      }]
+    },
+    "Tempered Fulgur Anjanath": {
+      "level": {
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 1
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Thunderpelt",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Savage Deviljho": {
+      "level": {
+        "5": {
+          "rate": 2
+        },
+        "6": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Bloodstained Ebonhide",
+        "rate": 4
+      }]
+    },
+    "Ruiner Nergigante": {
+      "level": {
+        "5": {
+          "rate": 1
+        },
+        "6": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Elder Dragonvein Bone",
+        "rate": 5
+      }, {
+        "name": "Extinction Greathorn",
+        "rate": 4
+      }]
+    },
+    "Tempered Shrieking Legiana": {
+      "level": {
+        "6": {
+          "rate": 3
+        },
+        "7": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Frosthide",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Tigrex": {
+      "level": {
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Tempered Jaw",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem ",
+        "rate": null
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }]
+    },
+    "Tempered Ebony Odogaron": {
+      "level": {
+        "6": {
+          "rate": 2
+        },
+        "7": {
+          "rate": 1
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 3
+      }, {
+        "name": "Tempered Talon",
+        "rate": 5
+      }, {
+        "name": "Spiritvein Gem",
+        "rate": 2
+      }, {
+        "name": "Spiritvein Solidstone",
+        "rate": 3
+      }]
+    },
+    "Tempered Velkhana": {
+      "level": {
+        "7": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Spiritvein Bone",
+        "rate": 4
+      }, {
+        "name": "Tempered Crownhorn",
+        "rate": 5
+      }, {
+        "name": "Great Spiritvein Gem",
+        "rate": 1
+      }]
+    },
+    "Tempered Ruiner Nergigante": {
+      "level": {
+        "7": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Elder Spitivein Bone",
+        "rate": 5
+      }, {
+        "name": "Annihilating Temperhorn",
+        "rate": 4
+      }, {
+        "name": "Great Spiritvein Gem",
+        "rate": 1
+      }]
+    },
+    "": {
+      "level": {
+        "7": {
+          "rate": 0
+        }
+      },
+      "material": [{
+        "name": "Dragonvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Bloodthirsty Glimmerpelt",
+        "rate": 5
+      }]
+    },
+    "Tempered Stygian Zinogr": {
+      "level": {
+        "7": {
+          "rate": 3
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 5
+      }, {
+        "name": "Tempered Dragonhold",
+        "rate": 5
+      }, {
+        "name": "Great Spiritvein Gem",
+        "rate": 1
+      }]
+    },
+    "Tempered Savage Deviljho": {
+      "level": {
+        "7": {
+          "rate": 2
+        }
+      },
+      "material": [{
+        "name": "Spiritvein Solidbone",
+        "rate": 4
+      }, {
+        "name": "Spattered Hide",
+        "rate": 5
+      }, {
+        "name": "Great Spiritvein Gem",
+        "rate": 1
+      }]
+    }
+  }
+}]

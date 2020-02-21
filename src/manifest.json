@@ -21,7 +21,7 @@
     "chrome_style": true
   },
   "content_scripts": [{
-    "matches": ["https://*.wiki.fextralife.com/*"],
+    "matches": ["https://monsterhunterworld.wiki.fextralife.com/*"],
     "css": ["main.css"],
     "js": ["main.js"]
   }],

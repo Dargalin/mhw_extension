@@ -1,21 +1,273 @@
 [{
-    "id": 1,
-    "name": "Banbaro",
-    "url": "https://monsterhunterworld.wiki.fextralife.com/Banbaro",
-    "icon": "banbaro_icon.png"
-  },
-  {
-    "id": 2,
-    "name": "Barroth",
-    "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth",
-    "icon": "barroth_icon.png"
-
-  },
-  {
-    "id": 3,
-    "name": "Beotodus",
-    "url": "https://monsterhunterworld.wiki.fextralife.com/Beotodus",
-    "icon": "beotodus_icon.png"
-
-  }
-]
+  "name": "Banbaro",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-banbaro_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Banbaro"
+}, {
+  "name": "Beotodus",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-beotodus_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Beotodus"
+}, {
+  "name": "Nargacuga",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-nargacuga_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Nargacuga"
+}, {
+  "name": "Velkhana",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-velkhana_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Velkhana"
+}, {
+  "name": "Tigrex",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-tigrex_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Tigrex"
+}, {
+  "name": "Shrieking Legiana",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-shrieking_legiana_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Shrieking+Legiana"
+}, {
+  "name": "Barioth",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-barioth_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Barioth"
+}, {
+  "name": "Glavenus",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-glavenus_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Glavenus"
+}, {
+  "name": "Brachydios",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-brachydios_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Brachydios"
+}, {
+  "name": "Fulgur Anjanath",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-fulgur_anjanath_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Fulgur+Anjanath"
+}, {
+  "name": "Ebony Odogaron",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-ebony_odogaron_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Ebony+Odogaron"
+}, {
+  "name": "Acidic Glavenus",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-acidic_glavenus_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Acidic+Glavenus"
+}, {
+  "name": "Ruiner Nergigante",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-ruiner_nergigante_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Ruiner+Nergigante"
+}, {
+  "name": "Viper Tobi-Kadachi",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-viper_tobi-kadachi_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Viper+Tobi-Kadachi+"
+}, {
+  "name": "Coral Pukei-Pukei",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-coral_pukei-pukei_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Coral+Pukei-Pukei"
+}, {
+  "name": "Nightshade Paolumu",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-nightshade_paolumu_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Nightshade+Paolumu"
+}, {
+  "name": "Namielle",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-namielle_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Namielle"
+}, {
+  "name": "Yian Garuga",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-yian_garuga_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Yian+Garuga"
+}, {
+  "name": "Shara Ishvalda",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-shara_ishvalda_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Shara+Ishvalda"
+}, {
+  "name": "Savage Deviljho",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-savage_deviljho_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Savage+Deviljho"
+}, {
+  "name": "Blackveil Vaal Hazak",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-blackveil_vaal_hazak_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Blackveil+Vaal+Hazak"
+}, {
+  "name": "Seething Bazelgeuse",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-seething_bazelgeuse_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Seething+Bazelgeuse"
+}, {
+  "name": "Scarred Yian Garuga",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-scarred_yian_garuga_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Scarred+Yian+Garuga"
+}, {
+  "name": "Gold Rathian",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-gold_rathian_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Gold+Rathian"
+}, {
+  "name": "Silver Rathalos",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-silver_rathalos_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Silver+Rathalos"
+}, {
+  "name": "Brute Tigrex",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-brute_tigrex_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Brute+Tigrex"
+}, {
+  "name": "Zinogre",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-zinogre_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Zinogre"
+}, {
+  "name": "Rajang",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-rajang_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Rajang"
+}, {
+  "name": "Stygian Zinogre",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/stygian_zinogre_icon-mhw-wiki-guide.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Stygian+Zinogre"
+}, {
+  "name": "Safi'jiiva",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/safi'jiiva_icon-mhw-wiki-guide.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Safi'jiiva"
+}, {
+  "name": "Raging Brachydios",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/raging_brachydios_icon-mhw-wiki-guide.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Raging+Brachydios"
+}, {
+  "name": "Furious Rajang",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/furious_rajang_icon-mhw-wiki-guide.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Furious+Rajang"
+}, {
+  "name": "Anjanath",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/anjanath-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Anjanath"
+}, {
+  "name": "Barroth",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/barroth-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Barroth"
+}, {
+  "name": "Bazelgeuse",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/bazelgeuse-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Bazelgeuse"
+}, {
+  "name": "Behemoth",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-behemoth_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Behemoth"
+}, {
+  "name": "Deviljho",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Deviljho-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Deviljho"
+}, {
+  "name": "Diablos",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-diablos_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos"
+}, {
+  "name": "Diablos",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/black-diablos-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Diablos"
+}, {
+  "name": "Dodogama",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Dodogama-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Dodogama"
+}, {
+  "name": "Great Girros",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/great-girros-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Great+Girros"
+}, {
+  "name": "Great Jagras",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Great-Jagras-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Great+Jagras"
+}, {
+  "name": "Jyuratodus",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Jyuratodus-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Jyuratodus"
+}, {
+  "name": "Kirin",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Kirin-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Kirin"
+}, {
+  "name": "Kulu-Ya-Ku",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Kulu-Ya-Ku-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu-Ya-Ku"
+}, {
+  "name": "Kulve Taroth",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Kulve-Taroth-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Kulve+Taroth"
+}, {
+  "name": "Kushala Daora",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Kushala-Daora-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala+Daora"
+}, {
+  "name": "Lavasioth",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Lavasioth-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Lavasioth"
+}, {
+  "name": "Legiana",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Legiana-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Legiana"
+}, {
+  "name": "Lunastra",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-lunastra_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Lunastra"
+}, {
+  "name": "Nergigante",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Nergigante-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Nergigante"
+}, {
+  "name": "Odogaron",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/odogaronmhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Odogaron"
+}, {
+  "name": "Paolumu",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Paolumu-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Paolumu"
+}, {
+  "name": "Pukei-Pukei",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Pukei-Pukei-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Pukei-Pukei"
+}, {
+  "name": "Radobaan",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Radobaan-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Radobaan"
+}, {
+  "name": "Rathalos",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-rathalos_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos"
+}, {
+  "name": "Azure Rathalos",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Azure-Rathalos-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos"
+}, {
+  "name": "Rathian",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-rathian_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian"
+}, {
+  "name": "Pink Rathian",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Pink-Rathian-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Rathian"
+}, {
+  "name": "Teostra",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Teostra-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Teostra"
+}, {
+  "name": "Tobi-Kadachi",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Tobi-Kadachi-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Tobi-Kadachi"
+}, {
+  "name": "Tzitzi-Ya-Ku",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Tzitzi-Ya-Ku-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Tzitzi-Ya-Ku"
+}, {
+  "name": "Uragaan",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Uragaan-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Uragaan"
+}, {
+  "name": "Vaal Hazak",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Vaal-Hazak-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal+Hazak"
+}, {
+  "name": "Xeno'jiiva",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Xenojiiva-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Xeno'jiiva"
+}, {
+  "name": "Zorah Magdaros",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Zorah-Magdaros-mhw-Icon-small.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Zorah+Magdaros"
+}, {
+  "name": "Ancient Leshen",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/ancient_leshen_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Ancient+Leshen"
+}, {
+  "name": "Leshen",
+  "icon": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-leshen_icon.png",
+  "url": "https://monsterhunterworld.wiki.fextralife.com/Leshen"
+}]
