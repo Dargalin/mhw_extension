@@ -124,28 +124,21 @@
       "tempered": false,
       "location": [{
         "name": "Guiding Lands: Coral",
-        "level": ["1"]
-      }]
-    }, {
-      "name": "Coral Pukei-pukei",
-      "tempered": false,
-      "location": [{
-        "name": "Guiding Lands: Coral",
-        "level": ["3"]
+        "level": ["1", "2", "3"]
       }]
     }, {
       "name": "Great Girros",
       "tempered": false,
       "location": [{
         "name": "Guiding Lands: Rotten",
-        "level": ["1", "2", "3", "3"]
+        "level": ["1", "2", "3"]
       }]
     }, {
       "name": "Radobaan",
       "tempered": false,
       "location": [{
         "name": "Guiding Lands: Rotten",
-        "level": ["1", "2", "3", "3"]
+        "level": ["1", "2", "3"]
       }]
     }, {
       "name": "Viper Tobi-Kadachi",
@@ -2374,7 +2367,7 @@
       "tempered": false,
       "location": [{
         "name": "Guiding Lands: Rotten",
-        "level": ["1", "2", "3", "3", "4", "5", "6", "7"]
+        "level": ["1", "2", "3", "4", "5", "6", "7"]
       }]
     }]
   }
@@ -2518,14 +2511,7 @@
       "tempered": false,
       "location": [{
         "name": "Guiding Lands: Tundra",
-        "level": ["2", "3", "5"]
-      }]
-    }, {
-      "name": "Tempered Barioth",
-      "tempered": true,
-      "location": [{
-        "name": "Guiding Lands: Tundra",
-        "level": ["4"]
+        "level": ["2", "3", "4", "5"]
       }]
     }]
   }
@@ -2537,7 +2523,7 @@
       "tempered": false,
       "location": [{
         "name": "Guiding Lands: Tundra",
-        "level": ["3", "4", "5"]
+        "level": ["3", "4", "5", "6"]
       }]
     }]
   }
@@ -2561,14 +2547,7 @@
       "tempered": false,
       "location": [{
         "name": "Guiding Lands: Tundra",
-        "level": ["4", "5", "6"]
-      }]
-    }, {
-      "name": "",
-      "tempered": false,
-      "location": [{
-        "name": "Guiding Lands: Tundra",
-        "level": ["7"]
+        "level": ["4", "5", "6", "7"]
       }]
     }]
   }
